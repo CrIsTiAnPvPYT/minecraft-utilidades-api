@@ -8,19 +8,18 @@ _El npm que te ayudará a crear comandos relacionados con minecraft_
 npm i minecraft-utilidades --save
 ```
 
-### Constructores 🔧
+## Constructores 🔧
 
-_Lista de constructores_
+| Constructor | Ejemplo |
+|--|--|--|
+|  cabeza| cabeza('CrIsTiAn_PvP_YT')
+|  avatar| avatar('CrIsTiAn_PvP_YT')
+|  cuerpo| cuerpo('CrIsTiAn_PvP_YT')
+|  skin| skin('CrIsTiAn_PvP_YT')
+|  server| server('play.survivaldub.com')
+|  server_img| server_img('play.survivaldub.com')
+|  perfil| perfil('CrIsTiAn_PvP_YT')
 
-```
-    cabeza
-    avatar
-    cuerpo
-    skin
-    server
-    server_img
-    perfil
-```
 
 ### Necesitan async? 🔧
 
