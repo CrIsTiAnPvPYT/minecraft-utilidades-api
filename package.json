@@ -1,0 +1,57 @@
+{
+    "_from": "minecraft-utilidades",
+    "_id": "minecraft-utilidades@1.0",
+    "_inBundle": false,
+    "_integrity": "sha512-l5Y2EcOowsW3OKvtSCu7AdWHU1mmCTBapTFQFcgV+rZbwgGIGeWkFZxOiXaYDIOZV+fO29z4mTz78p3s/y1ZKg==",
+    "_location": "/minecraft-utilidades",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "tag",
+        "registry": true,
+        "raw": "minecraft-utilidades",
+        "name": "minecraft-utilidades",
+        "escapedName": "minecraft-utilidades",
+        "rawSpec": "",
+        "saveSpec": null,
+        "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+        "#USER",
+        "/"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CrIsTiAnPvPYT/minecraft-utilidades"
+    },
+    "_resolved": "https://registry.npmjs.org/minecraft-information/-/minecraft-information-0.1.1.tgz",
+    "_shasum": "9a6b8e83a5bc439ca7d1daaa99f78096f52cc7e1",
+    "_spec": "minecraft-information",
+    "_where": "C:\\Users\\Casa\\Desktop\\Minecraft-utilidades",
+    "author": {
+        "name": "LilBartrap"
+    },
+    "bundleDependencies": false,
+    "dependencies": {
+        "axios": "^0.21.0",
+        "moment": "^2.29.1"
+    },
+    "deprecated": false,
+    "description": "minecraft-utilidades, el npm que te facilitará la creación de comandos de minecraft en tu bot de discord",
+    "keywords": [
+        "minecraft",
+        "information",
+        "minecraft-information",
+        "discord.js",
+        "javascript",
+        "minecraft-info",
+        "info-minecraft"
+    ],
+    "license": "MIT",
+    "main": "src/index.js",
+    "name": "minecraft-information",
+    "scripts": {
+        "start": "node src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "0.1.1"
+}
