@@ -38,7 +38,7 @@ const avatar = (name) => {
     return `https://cravatar.eu/helmavatar/${name}/600.png`;
 };
 
-const body = async(name) => {
+const cuerpo = async(name) => {
     if (!name) return console.log(`${style.Underscore}${style.Bright}Minecraft-Utilidades${style.Reset} ${style.BgRed}${style.Bright}ERROR:${style.Reset} ${style.Bright}Necesitas proporcionar un nombre de usuario${style.Reset}`);
     const res = await axios.get(`https://api.mojang.com/users/profiles/minecraft/${name}`);
     let result = await `https://crafatar.com/renders/body/${res.data.id}?size=512&default=MHF_Steve&overlay&scale=10.png`;
@@ -57,7 +57,7 @@ const server = async(ip) => {
     return api.data;
 };
 
-const server_icono = (ip) => {
+const server_img = (ip) => {
     if (!ip) return console.log(`${style.Underscore}${style.Bright}Minecraft-Utilidades${style.Reset} ${style.BgRed}${style.Bright}ERROR:${style.Reset} ${style.Bright}No se ha proporcionado la ip de un servidor${style.Reset}`);
     return `https://api.mcsrvstat.us/icon/${ip}`;
 };
@@ -70,19 +70,19 @@ const perfil = async(name) => {
     return data.data
 };
 
-const mojangStatus = async() => {
+/*const mojangStatus = async() => {
     if (!name) return console.log(`${style.Underscore}${style.Bright}Minecraft-Utilidades${style.Reset} ${style.BgRed}${style.Bright}ERROR:${style.Reset} ${style.Bright}El error no se ha identificado${style.Reset}`);
     const res = await axios.get(`https://status.mojang.com/check`);
     return res.data
-}
+}*/
 
 module.exports = {
     cabeza,
     avatar,
-    body,
+    cuerpo,
     skin,
     server,
-    server_icono,
+    server_img,
     perfil,
-    mojangStatus
+    // mojangStatus
 };

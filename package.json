@@ -1,6 +1,6 @@
 {
-    "_from": "minecraft-utilidades",
-    "_id": "minecraft-utilidades@1.0",
+    "_from": "minecraft-utilidades-api",
+    "_id": "minecraft-utilidades-api@1.0",
     "_inBundle": false,
     "_integrity": "sha512-l5Y2EcOowsW3OKvtSCu7AdWHU1mmCTBapTFQFcgV+rZbwgGIGeWkFZxOiXaYDIOZV+fO29z4mTz78p3s/y1ZKg==",
     "_location": "/minecraft-utilidades",
@@ -21,11 +21,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/CrIsTiAnPvPYT/minecraft-utilidades"
+        "url": "https://github.com/CrIsTiAnPvPYT/minecraft-utilidades-api"
     },
-    "_resolved": "https://registry.npmjs.org/minecraft-information/-/minecraft-information-0.1.1.tgz",
     "_shasum": "9a6b8e83a5bc439ca7d1daaa99f78096f52cc7e1",
-    "_spec": "minecraft-information",
+    "_spec": "minecraft-utilidades-api",
     "_where": "C:\\Users\\Casa\\Desktop\\Minecraft-utilidades",
     "author": {
         "name": "LilBartrap"
@@ -40,18 +39,18 @@
     "keywords": [
         "minecraft",
         "information",
-        "minecraft-information",
+        "minecraft-utilidades",
         "discord.js",
         "javascript",
-        "minecraft-info",
+        "",
         "info-minecraft"
     ],
     "license": "MIT",
     "main": "src/index.js",
-    "name": "minecraft-information",
+    "name": "minecraft-utilidades",
     "scripts": {
         "start": "node src/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "0.1.1"
+    "version": "1.0.1"
 }
